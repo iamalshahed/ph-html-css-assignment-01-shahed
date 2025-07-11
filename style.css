@@ -131,3 +131,45 @@ nav{
 .action_right img{
     border-radius: 3rem;
 }
+
+
+
+/* users */
+.users{
+    padding: 3.125rem 5rem;
+    border-radius: 1.5rem;
+    background: rgba(78, 71, 255, 0.10);
+
+    h1{
+        color: var(--black);
+        text-align: center;
+        font-size: 2.375rem;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 2.5rem;
+    }
+
+    .user{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .category{
+            max-width: max-content;
+            text-align: center;
+
+            h2{
+                font-size: 5rem;
+                font-weight: 700;
+                color: var(--main-color);
+                line-height: normal;
+            }
+
+            p{
+                color: rgba(0, 0, 0, 0.50);
+                font-size: 1.25rem;
+                font-weight: 400;
+            }
+        }
+    }
+}
