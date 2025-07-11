@@ -263,3 +263,37 @@ nav{
         }
     }
 }
+
+
+
+/* focus */
+.focus{
+    margin-bottom: 5.75rem;
+    text-align: center;
+    padding: 4.4375rem 9.375rem;
+    border-radius: 14px;
+    background: #fff;
+
+    .focus_content{
+        h1{
+            color: #000;
+            font-size: 3.125rem;
+            font-weight: 700;
+        }
+
+        P{
+            margin: 1.25rem;
+            color: rgba(0, 0, 0, 0.50);
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+
+    .focus_banner{
+        margin-top: 1.25rem;
+        
+        img{
+            border-radius: 3.125rem;
+        }
+    }
+}
